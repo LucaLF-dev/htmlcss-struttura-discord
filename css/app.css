@@ -55,6 +55,13 @@ body {
     background-color: green;
 }
 
+.bg-color-greenlight{
+    background-color: lightgreen;
+}
+
+.bg-color-redlight{
+    background-color: lightcoral;
+}
 .col-3 {
     flex-basis: calc(100% / 4);
 }
@@ -77,7 +84,22 @@ body {
     height: 400px;
 }
 
+.col-7{
+    
+    flex-basis: calc((100% * 7) /12);
+}
 
+.col-5 {
+    flex-basis: calc((100% * 5) /12);
+}
+
+.col-2 {
+    flex-basis: calc(100% / 6);
+}
+
+.row-foot{
+    display: flex;
+}
 
 
 
