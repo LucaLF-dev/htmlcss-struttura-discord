@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+}
+
 .bg-color-blu {
     background-color:#01178B ;
 } 
@@ -28,15 +33,28 @@ body {
     background-color: #DAA520;
 }
 
+.bg-color-pinkr{
+    background-color: #EE82EE;
+}
 .col-3 {
     border: 1px dashed black;
+    flex-basis: calc(100% / 4);
+   
 }
 
 .col-6{
     border: 1px dashed black;
+    flex-basis: calc(100% / 2);
 }
 
 
+.col-8{
+    flex-basis: calc((100% * 2) /3);
+}
+
+.col-4{
+    flex-basis: calc(100% / 3);
+}
 
 
 
@@ -75,5 +93,12 @@ body {
 .debug .page-footer{
     background-color:#222729 ;
     
+}
+
+.debug [class^='col-'] {
+	min-height: 100px;
+	padding: 10px;
+	border: 1px dashed black;
+    font-weight: 700;
 }
 
