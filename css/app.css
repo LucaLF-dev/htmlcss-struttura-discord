@@ -21,6 +21,12 @@ body {
     justify-content: center;
 }
 
+.row-left{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
 .bg-color-blu {
     background-color:#01178B ;
 } 
@@ -93,7 +99,8 @@ body {
     padding: 20px;
 }
 
-.debug .row{
+.debug .row,
+.debug .row-left{
     border: 2px solid blue;
     min-height: 90px;
     padding: 20px;
