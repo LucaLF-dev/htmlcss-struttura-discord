@@ -4,6 +4,40 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bg-color-blu {
+    background-color:#01178B ;
+} 
+
+.bg-color-grey {
+    background-color: #D3D3D3 ;
+}
+
+.bg-color-yellow{
+    background-color: #DAA520;
+}
+
+.col-3 {
+    border: 1px dashed black;
+}
+
+.col-6{
+    border: 1px dashed black;
+}
+
+
+
 
 
 
