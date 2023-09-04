@@ -21,6 +21,11 @@ body {
     justify-content: center;
 }
 
+.row-head {
+    display: flex;
+    justify-content: space-between;
+}
+
 .row-left{
     display: flex;
     flex-direction: row-reverse;
@@ -105,6 +110,8 @@ body {
 .row-last{
     display: flex;
     justify-content: space-between ;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -121,31 +128,29 @@ body {
 
 .debug .page-header{
     background-color: #ADD8E6;
-    min-height: 80px;
+    max-height: 90px;
 }
 
 .debug .container{
-    border: 2px solid black;
-    min-height: 90px;
+   
     padding: 20px;
+    min-height: 90px;
+    
 }
 
 .debug .row,
 .debug .row-left{
-    border: 2px solid blue;
+    
     min-height: 90px;
-    padding: 20px;
 }
 
 .debug .page-footer{
     background-color:#222729 ;
-    
 }
 
 .debug [class^='col-'] {
 	min-height: 100px;
-	padding: 10px;
 	border: 1px dashed black;
-    font-weight: 700;
+    font-weight: 300;
 }
 
