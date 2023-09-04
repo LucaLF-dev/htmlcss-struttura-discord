@@ -36,6 +36,15 @@ body {
 .bg-color-pinkr{
     background-color: #EE82EE;
 }
+
+.bg-color-lightblue{
+    background: #1D90FF;
+}
+
+.bg-color-lightpink{
+    background-color: pink;
+}
+
 .col-3 {
     border: 1px dashed black;
     flex-basis: calc(100% / 4);
