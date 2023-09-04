@@ -144,7 +144,9 @@ body {
     border-bottom: 2px solid  #D3D3D3;
 }
 
-
+.big-footer > [class^='col-']{
+    height: 500px;
+}
 
 
 
