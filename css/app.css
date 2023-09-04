@@ -24,6 +24,7 @@ body {
 .row-head {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .row-left{
@@ -128,7 +129,7 @@ body {
 
 .debug .page-header{
     background-color: #ADD8E6;
-    max-height: 90px;
+    max-height: 300px;
 }
 
 .debug .container{
@@ -149,7 +150,7 @@ body {
 }
 
 .debug [class^='col-'] {
-	min-height: 100px;
+	min-height: 200px;
 	border: 1px dashed black;
     font-weight: 300;
 }
