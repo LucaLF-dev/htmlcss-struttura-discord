@@ -18,6 +18,7 @@ body {
 
 .row{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -75,6 +76,14 @@ body {
 /* -------------- */
 
 /* HEADER */
+
+.row-head [class^='col-'] {
+	max-height: 45px;
+	border: 1px dashed black;
+    font-size: 25px;
+    margin: 0;
+}
+
 .col-3 {
     flex-basis: calc(100% / 4);
     
@@ -183,9 +192,4 @@ body {
     font-weight: 300;  
 }
 
-.row-head [class^='col-'] {
-	max-height: 45px;
-	border: 1px dashed black;
-    font-size: 25px;
-    margin: 0;
-}
+
